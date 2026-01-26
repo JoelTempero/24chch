@@ -4,52 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>24CHCH | Christchurch 24 Hour Film Festival</title>
-    <meta name="description" content="24CHCH - The Christchurch 24 Hour Film Festival! Make a film in 24 hours. March 27-28, 2026.">
+    <meta name="description" content="24CHCH - The Christchurch 24 Hour Film Festival! Make a film in 24 hours. March 27-28, 2026. Ōtautahi's wildest filmmaking competition.">
     <meta property="og:title" content="24CHCH | Christchurch 24 Hour Film Festival">
-    <meta property="og:description" content="Make a film in 24 hours. Christchurch's wildest filmmaking competition.">
+    <meta property="og:description" content="Make a film in 24 hours. Ōtautahi Christchurch's wildest filmmaking competition. March 27-28, 2026.">
     <meta property="og:type" content="website">
+    <meta name="keywords" content="24 hour film festival, Christchurch, filmmaking, short film competition, 24CHCH, Ōtautahi">
+    <link rel="canonical" href="https://24chch.nz/">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
 </head>
-<body>
-    <!-- Film grain overlay -->
-    <div class="film-grain"></div>
-
+<body class="page-home">
     <!-- Navigation -->
     <nav class="main-nav">
-        <div class="nav-logo">24CHCH</div>
+        <a href="index.html" class="nav-logo">
+            <span class="logo-24">24</span><span class="logo-chch">CHCH</span>
+        </a>
         <button class="nav-toggle" aria-label="Toggle menu">
             <span></span>
             <span></span>
             <span></span>
         </button>
         <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#films">2023 Films</a></li>
-            <li><a href="#screening">Screening</a></li>
-            <li><a href="#rules">Rules</a></li>
-            <li><a href="#advice">Advice</a></li>
-            <li><a href="#handin">Hand In</a></li>
-            <li><a href="#home" class="nav-cta">Sign Up</a></li>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="2023.html">2023 Films</a></li>
+            <li><a href="screening.html">Screening</a></li>
+            <li><a href="rules.html">Rules</a></li>
+            <li><a href="advice.html">Advice</a></li>
+            <li><a href="handin.html">Hand In</a></li>
+            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScbwJp2_Lpm9lMBUN3vr_xrUQUIbqv9HYaf_0LnMmid-7J54g/viewform" target="_blank" class="nav-cta">Sign Up</a></li>
         </ul>
     </nav>
 
     <!-- Hero Section -->
-    <section id="home" class="hero">
-        <div class="hero-bg">
-            <div class="glitch-container">
-                <div class="hero-title glitch" data-text="24CHCH">24CHCH</div>
-            </div>
-            <div class="hero-year">26</div>
+    <section class="hero">
+        <div class="hero-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
         </div>
+
         <div class="hero-content">
+            <div class="hero-badge">Ōtautahi Christchurch</div>
+            <h1 class="hero-title">
+                <span class="title-24">24</span>
+                <span class="title-chch">CHCH</span>
+                <span class="title-year">26</span>
+            </h1>
             <p class="hero-tagline">The Christchurch 24 Hour Film Festival!</p>
+
             <div class="hero-date">
-                <span class="date-label">Mark Your Calendar</span>
+                <span class="date-label">Save The Date</span>
                 <span class="date-value">27-28 MARCH 2026</span>
             </div>
 
@@ -59,547 +68,148 @@
                     <span class="countdown-value" id="days">00</span>
                     <span class="countdown-label">Days</span>
                 </div>
-                <div class="countdown-separator">:</div>
                 <div class="countdown-item">
                     <span class="countdown-value" id="hours">00</span>
                     <span class="countdown-label">Hours</span>
                 </div>
-                <div class="countdown-separator">:</div>
                 <div class="countdown-item">
                     <span class="countdown-value" id="minutes">00</span>
-                    <span class="countdown-label">Minutes</span>
+                    <span class="countdown-label">Mins</span>
                 </div>
-                <div class="countdown-separator">:</div>
                 <div class="countdown-item">
                     <span class="countdown-value" id="seconds">00</span>
-                    <span class="countdown-label">Seconds</span>
+                    <span class="countdown-label">Secs</span>
                 </div>
             </div>
 
             <a href="https://docs.google.com/forms/d/e/1FAIpQLScbwJp2_Lpm9lMBUN3vr_xrUQUIbqv9HYaf_0LnMmid-7J54g/viewform" target="_blank" class="cta-button">
-                <span class="cta-text">SIGN UP NOW</span>
-                <span class="cta-arrow">&rarr;</span>
+                <span class="cta-text">SIGN UP YOUR TEAM NOW</span>
+                <svg class="cta-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M5 12h14M12 5l7 7-7 7"/>
+                </svg>
             </a>
 
-            <p class="hero-subtitle">Sign up to be updated on 2026!</p>
+            <p class="hero-subtitle">24 hours. 3 minutes max. Infinite possibilities.</p>
         </div>
+
         <div class="scroll-indicator">
-            <span>Scroll</span>
+            <span>Explore</span>
             <div class="scroll-arrow"></div>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="section about">
-        <div class="section-header">
-            <h2 class="section-title">Hey there! This is 24CHCH!</h2>
-            <div class="title-decoration"></div>
-        </div>
-        <div class="about-content">
-            <div class="about-main">
-                <p class="highlight-text">You get 24 hours to make a short film (no longer than 3 minutes).</p>
-
-                <div class="origin-story">
-                    <h3 class="subsection-title">Our Origin Story!</h3>
-                    <p>With the <a href="https://48hours.co.nz/" target="_blank">48HOURS Film Festival</a> taking a hiatus in 2023, Christchurch decided to take matters into their own hands and run their very own film making competition!</p>
-                    <p>Starting on November 10th at Little Andromeda, filmmakers of all levels gathered to create short films, each lasting no more than three minutes. The event concluded with an exciting screening the next day, showcasing the unique and creative stories that were brought to life in just one day.</p>
-                    <p>The challenge of 24CHCH23 was to make a film that included three specific elements: "12 O'Clock," "Yellow," and "A Surprise." This encouraged filmmakers to be creative and think on their feet. The tight timeframe and these unique elements brought out the best in everyone, leading to a diverse array of films. It wasn't just about making films; it was about bringing together people who share a love for storytelling and filmmaking.</p>
-                    <p>A massive thank you to Michael Bell and Scott Koorey for running the competition! And thanks to our sponsors for hosting and donating prizes.</p>
+    <!-- Quick Info Section -->
+    <section class="quick-info">
+        <div class="container">
+            <div class="info-grid">
+                <div class="info-card">
+                    <div class="info-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M12 6v6l4 2"/>
+                        </svg>
+                    </div>
+                    <h3>24 Hours</h3>
+                    <p>From element reveal to hand-in. Sleep is optional, caffeine is recommended.</p>
                 </div>
-            </div>
-
-            <div class="faq-grid">
-                <div class="faq-item">
-                    <h4>When is this happening?</h4>
-                    <p><strong>Friday 27th and Saturday 28th March 2026</strong></p>
+                <div class="info-card">
+                    <div class="info-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <polygon points="23 7 16 12 23 17 23 7"/>
+                            <rect x="1" y="5" width="15" height="14" rx="2" ry="2"/>
+                        </svg>
+                    </div>
+                    <h3>3 Minutes Max</h3>
+                    <p>Keep it tight, keep it punchy. Every second counts.</p>
                 </div>
-
-                <div class="faq-item">
-                    <h4>I'm interested! Tell me more!</h4>
-                    <p>All you need is just one day's commitment to make a movie, celebrate local filmmaking, and get to hang out with this awesome Christchurch community.</p>
+                <div class="info-card">
+                    <div class="info-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                            <circle cx="9" cy="7" r="4"/>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                        </svg>
+                    </div>
+                    <h3>Epic Community</h3>
+                    <p>Filmmakers of all levels coming together to create magic.</p>
                 </div>
-
-                <div class="faq-item">
-                    <h4>How much does it cost?</h4>
-                    <p>Nothing! It's absolutely free to enter. The only cost will be a small amount ($15, or $5 concession) for tickets to the screening. And a USB memory stick, but I'm sure you can find one down the back of your computer desk and we'll give it back at the end of the night.</p>
-                </div>
-
-                <div class="faq-item">
-                    <h4>Will there be required elements for the film?</h4>
-                    <p>At the launch, there will be three required elements given which you have to include in your short film.</p>
-                    <p><strong>There are no assigned genres, make whatever film you like!</strong></p>
-                </div>
-
-                <div class="faq-item">
-                    <h4>I'm in! Where do I sign up?</h4>
-                    <p>Go to the front page of this website to register interest! And we'll notify all registered people closer to the time to confirm your entry!</p>
-                    <p>This event is intended specifically for the Christchurch community, and the in-person aspects of the event (i.e. launch, hand-in, screening and awards) are a big part of what it's all about.</p>
-                    <p>That said, if you're from Christchurch or the general Canterbury area (or at least have some meaningful connection to the place) and you want to participate but you'll be out-of-town on the weekend in question, you are most welcome to get involved remotely. We will consider out-of-town registrations on a case-by-case basis.</p>
-                </div>
-
-                <div class="faq-item">
-                    <h4>Are the 48Hours organisers okay with this?</h4>
-                    <p>Yes! This is an Ōtautahi organised event with the blessing of our gorilla filmmaking overlords in Te Ika-a-Māui. And who knows, maybe this could be a 'gateway drug' for introducing new budding CHCH filmmakers to the wonderful world of 48Hours…</p>
-                </div>
-
-                <div class="faq-item">
-                    <h4>I've done 48Hours before - will this be pretty much the same?</h4>
-                    <p><strong>Yes:</strong> you're on a deadline, you've got elements to include, you probably won't get much sleep.</p>
-                    <p><strong>No:</strong> it's half the time for starters, and that's a pretty huge difference. Also, no official judging, and the rules are maybe a bit more bendy than 48Hours. Less competition, more yay let's make a film and show it to friends.</p>
-                </div>
-
-                <div class="faq-item">
-                    <h4>I've never done 48Hours before!</h4>
-                    <p>Great! In that case, ignore most of what we've just rambled on about comparing this event to 48Hours in the previous answers. We welcome all spring chickens into the fold.</p>
+                <div class="info-card">
+                    <div class="info-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="8" r="7"/>
+                            <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"/>
+                        </svg>
+                    </div>
+                    <h3>Awards & Glory</h3>
+                    <p>Prizes, trophies, and the eternal admiration of your peers.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 2023 Films Section -->
-    <section id="films" class="section films">
-        <div class="section-header">
-            <h2 class="section-title">24CHCH<span class="year-accent">23</span></h2>
-            <p class="section-subtitle">November 2023</p>
-            <div class="title-decoration"></div>
-        </div>
-
-        <!-- Winner -->
-        <div class="winner-showcase">
-            <div class="award-badge winner-badge">
-                <span class="badge-icon">&#9733;</span>
-                <span class="badge-text">WINNER</span>
-            </div>
-            <h3 class="film-title winner-title">PIE FACE</h3>
-            <div class="video-container winner-video">
-                <iframe src="https://www.youtube-nocookie.com/embed/kBtexixorbU" title="PIE FACE - Winner" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-            </div>
-        </div>
-
-        <!-- Runner Up -->
-        <div class="runnerup-showcase">
-            <div class="award-badge runnerup-badge">
-                <span class="badge-text">RUNNER-UP</span>
-            </div>
-            <h3 class="film-title">"Solitary Beatlemania"</h3>
-            <div class="video-container">
-                <iframe src="https://www.youtube-nocookie.com/embed/zmcHSGwkpcw" title="Solitary Beatlemania - Runner Up" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-            </div>
-        </div>
-
-        <!-- Special Awards -->
-        <div class="special-awards">
-            <h3 class="awards-heading">Special Awards</h3>
-
-            <div class="awards-grid">
-                <div class="award-card">
-                    <div class="award-name">DARE TO BE SERIOUS</div>
-                    <h4 class="film-title">"James Travels The Multiverse and a bunch of stuff happens"</h4>
-                    <div class="video-container">
-                        <iframe src="https://www.youtube-nocookie.com/embed/TZ7vM1fjUHA" title="DARE TO BE SERIOUS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-                    </div>
-                </div>
-
-                <div class="award-card">
-                    <div class="award-name">MOST META</div>
-                    <h4 class="film-title">"Emilio Goes To Little Andromeda To Hand In A USB Stick"</h4>
-                    <div class="video-container">
-                        <iframe src="https://www.youtube-nocookie.com/embed/dHkFDDRnGjU" title="MOST META" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-                    </div>
-                </div>
-
-                <div class="award-card">
-                    <div class="award-name">PROMISING FUTURE</div>
-                    <h4 class="film-title">A SMALL BLOB OF ICE CREAM</h4>
-                    <div class="video-container">
-                        <iframe src="https://www.youtube-nocookie.com/embed/txnAuJo9vYM" title="PROMISING FUTURE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-                    </div>
-                </div>
-
-                <div class="award-card">
-                    <div class="award-name">BEST 12 O'CLOCK</div>
-                    <h4 class="film-title">"Nirvana Gulch (The Todd Cut)"</h4>
-                    <div class="video-container">
-                        <iframe src="https://www.youtube-nocookie.com/embed/WoMbceO__IA" title="BEST 12 O'CLOCK" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-                    </div>
-                </div>
-
-                <div class="award-card">
-                    <div class="award-name">BEST YELLOW</div>
-                    <h4 class="film-title">"Notes Over Breakfast"</h4>
-                    <div class="video-container">
-                        <iframe src="https://www.youtube-nocookie.com/embed/jmK0HQEpgZ0" title="BEST YELLOW" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-                    </div>
-                </div>
-
-                <div class="award-card">
-                    <div class="award-name">BEST SURPRISE</div>
-                    <h4 class="film-title">"Johnny Sins 5: Sinners Revenge"</h4>
-                    <div class="video-container">
-                        <iframe src="https://www.youtube-nocookie.com/embed/-rAaLscIFZA" title="BEST SURPRISE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-                    </div>
+    <!-- Teaser Section -->
+    <section class="teaser-section">
+        <div class="container">
+            <div class="teaser-content">
+                <h2>Ready to make movie magic?</h2>
+                <p>Join Christchurch's most chaotic, creative, sleep-deprived filmmaking weekend. Whether you're a seasoned pro or picking up a camera for the first time, 24CHCH is where legends are made.</p>
+                <div class="teaser-buttons">
+                    <a href="about.html" class="btn btn-outline">Learn More</a>
+                    <a href="2023.html" class="btn btn-secondary">Watch 2023 Films</a>
                 </div>
             </div>
-        </div>
-
-        <!-- All Other Films -->
-        <div class="all-films">
-            <h3 class="films-heading">All 2023 Films</h3>
-            <div class="films-grid">
-                <div class="film-card">
-                    <h4>"L' istruttore (The Instructor)"</h4>
-                    <div class="video-container small">
-                        <iframe src="https://www.youtube-nocookie.com/embed/1RGLwnJcoX8" title="L' istruttore" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-                    </div>
-                </div>
-                <div class="film-card">
-                    <h4>"Yellow (AKA 90 seconds you will never get back)"</h4>
-                    <div class="video-container small">
-                        <iframe src="https://www.youtube-nocookie.com/embed/TVLkfB1Cryk" title="Yellow" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-                    </div>
-                </div>
-                <div class="film-card">
-                    <h4>"The Old Haunted Mill"</h4>
-                    <div class="video-container small">
-                        <iframe src="https://www.youtube-nocookie.com/embed/1YO6fuH3Sj0" title="The Old Haunted Mill" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-                    </div>
-                </div>
-                <div class="film-card">
-                    <h4>Film</h4>
-                    <div class="video-container small">
-                        <iframe src="https://www.youtube-nocookie.com/embed/SfhRCtCWKJE" title="Film" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-                    </div>
-                </div>
-                <div class="film-card">
-                    <h4>Film</h4>
-                    <div class="video-container small">
-                        <iframe src="https://www.youtube-nocookie.com/embed/R9xuVBm-tps" title="Film" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-                    </div>
-                </div>
-                <div class="film-card">
-                    <h4>Film</h4>
-                    <div class="video-container small">
-                        <iframe src="https://www.youtube-nocookie.com/embed/xK8NW61Sr2E" title="Film" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Screening Section -->
-    <section id="screening" class="section screening">
-        <div class="section-header">
-            <h2 class="section-title">The Screening</h2>
-            <div class="title-decoration"></div>
-        </div>
-
-        <div class="screening-info">
-            <div class="screening-details">
-                <div class="detail-item">
-                    <span class="detail-label">WHEN</span>
-                    <span class="detail-value">7pm, Saturday 28 March 2026</span>
-                </div>
-                <div class="detail-item">
-                    <span class="detail-label">WHERE</span>
-                    <span class="detail-value">Little Andromeda (pencilled)</span>
-                </div>
-                <div class="detail-item">
-                    <span class="detail-label">HOW MUCH</span>
-                    <span class="detail-value">Tickets $15 ($5 student/unwaged)</span>
-                </div>
-            </div>
-        </div>
-
-        <div class="schedule">
-            <h3 class="schedule-title">The Weekend Schedule</h3>
-            <div class="timeline">
-                <div class="timeline-item friday">
-                    <div class="timeline-day">FRIDAY</div>
-                    <div class="timeline-events">
-                        <div class="event">
-                            <span class="event-time">5 PM</span>
-                            <span class="event-desc">Event Launch!</span>
-                        </div>
-                        <div class="event highlight">
-                            <span class="event-time">6 PM</span>
-                            <span class="event-desc">Required elements announced. Teams released into the wild!</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="timeline-connector">
-                    <span class="connector-text">24 HOURS OF CHAOS</span>
-                </div>
-                <div class="timeline-item saturday">
-                    <div class="timeline-day">SATURDAY</div>
-                    <div class="timeline-events">
-                        <div class="event">
-                            <span class="event-time">5 PM</span>
-                            <span class="event-desc">Venue is open, hand-in (USB stick) anytime from now</span>
-                        </div>
-                        <div class="event deadline">
-                            <span class="event-time">6 PM</span>
-                            <span class="event-desc">Deadline for hand-in. Hang with your team mates while we load up everyones films!</span>
-                        </div>
-                        <div class="event">
-                            <span class="event-time">7 PM</span>
-                            <span class="event-desc">Screening time!</span>
-                        </div>
-                        <div class="event final">
-                            <span class="event-time">END</span>
-                            <span class="event-desc">Judges deliberate and awards are announced!</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="screening-faq">
-            <div class="faq-item">
-                <h4>Where do I buy tickets for the screening?</h4>
-                <p>We will give teams a code for early access to purchase tickets to the screening event, and then after about a week we'll open it up for everyone to be able to buy tickets. Watch this space for more details. It's a good reason to register early.</p>
-            </div>
-
-            <div class="faq-item">
-                <h4>If I participate, do I have to go to the screening on the Saturday night?</h4>
-                <p>No, but we'd love to see all participating teams represented there if possible. It will be heaps of fun, and the point is to get together at the end of the shoot and enjoy each other's films.</p>
-            </div>
-
-            <div class="faq-item">
-                <h4>Can non-participants attend the screening too?</h4>
-                <p>Yes, anyone can buy tickets for the screening (as long as it doesn't sell out, that is!). We'll give teams first dibs for about a week though, before we make tickets available to the Gen Pop.</p>
-            </div>
-
-            <div class="faq-item">
-                <h4>What's all this about "awards" after the screening?</h4>
-                <p>That's right, we'll be giving out some awards. Unless we come up with new ideas, it'll be the same eight as last time which are:</p>
-                <ul>
-                    <li>1x Best Film (WINNER)</li>
-                    <li>1x Runner-Up</li>
-                    <li>3x best use of element awards (1 for each element)</li>
-                    <li>3x categories that the judges come up with as they watch the films (yup, it's that open ended folks)</li>
-                </ul>
-            </div>
-
-            <div class="faq-item">
-                <h4>Okay, so we've got awards… do we have prizes too?</h4>
-                <p>There will be some prizes! Think vouchers etc. We aren't going to be giving out expensive cameras for best cinematography or anything – we kind of like keeping the stakes as low as possible because we like to see what you make when the most important thing you have to do is delight us.</p>
-                <p><strong>But as we all know, the greatest prize and award is glory and the adoration of your peers.</strong></p>
-                <p>If you're in a position to donate a prize – please get in touch with us!</p>
-            </div>
-
-            <div class="faq-item warning">
-                <h4>Getting safely home from the screening</h4>
-                <p>We are mindful that some of you may end up not sleeping at all on the Friday night, and some of you might want to make use of our bar. If either or both of these is you, consider whether you will be in a safe state to drive a vehicle home after the screening - we recommend you coordinate with a team member, a friend or another team to have a designated well-rested driver.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Rules Section -->
-    <section id="rules" class="section rules">
-        <div class="section-header">
-            <h2 class="section-title">The Rules</h2>
-            <div class="title-decoration"></div>
-        </div>
-
-        <div class="rules-intro">
-            <p class="important-note">NOTE: The organisers reserve the right to change the rules prior to the start of the competition. However, any changes made will be clearly notified on the event and communicated to participants.</p>
-            <p>The spirit of this competition is that you go away, go nuts with your imagination for 24 hours, come back and show us whatever wild creation you've made. It's run by volunteers and just designed to be a bit of fun in between the big 48 Hours Film Festival competition times.</p>
-        </div>
-
-        <div class="rules-grid">
-            <div class="rule-item">
-                <h4>What will the required elements be?</h4>
-                <p>We will announce the elements at the launch. In general, it will have some similarities to 48Hours required elements, but with our own spin on things.</p>
-                <p>What we can say is that teams will not be given a genre, so feel free to start thinking in advance about what style of film you want to make, if you like to preplan things like that.</p>
-            </div>
-
-            <div class="rule-item">
-                <h4>What if I can't be at the Friday launch event?</h4>
-                <p>Awww, that's a shame. But no worries, if you really can't be there, let us know so we're not up all night worried sick like a concerned parent. And you'll still get to find out the elements - we'll be sharing the details online shortly after the in-person launch (by 6.30pm at the latest), for everyone to see.</p>
-            </div>
-
-            <div class="rule-item">
-                <h4>So, no more than 3 minutes, huh? That's quite short, isn't it?</h4>
-                <p>Yes and no. Yes, if you're used to making 5- or even 7-minute films for 48Hours. Unless you're remembering the special 48Hours of 2020 when it was a 3-minute maximum. Good times. And if you remember that then you know exactly what we're talking about.</p>
-                <p>3 minutes is obviously shorter, which means your script should be even tighter. Keep it simple, one scene maybe, think the rhythms of sketch comedy, think music videos, find ways to be efficient with your storytelling, get rid of dialogue except where it's really necessary in your story, show don't tell. The Briscoes lady sells us a duvet, a dinnerware set and some lovely throw pillows in 30 seconds, I'm sure you can sell us something in 2-3 minutes.</p>
-                <p>But also, no, 3 minutes is still a lot of film to make. The truth is, making a 3-minute film is actually not much less work than making a 5-minute film - you still have to brainstorm, write a script, travel to locations, say "action!" lots, edit the film, maybe do some fancy titles or effects or write some nice music, it all adds up. So be prepared for that.</p>
-            </div>
-
-            <div class="rule-item">
-                <h4>How strict will you be on the duration thing?</h4>
-                <p>For starters, no such thing as too short, we're all good with 3-minute films and 3-second films. But we are totally going to enforce the high-end, strictly no longer than 3 minutes, cos we like short shorts. Well, maybe we'll let a few extra seconds go unnoticed if we're feeling generous. But! if you go a noticeable amount over 3 minutes, our tech is instructed to move on to the next one. You have been warned!</p>
-            </div>
-
-            <div class="rule-item">
-                <h4>What about music for my film? What are my options?</h4>
-                <p>If you think you're up for it, we would love to see teams create original music for their films. But let's be real, a) not everyone has the chops to do that, and b) even if you can do that, 24 hours is very little time to do it in.</p>
-                <p>Other than original music, there are free music libraries available online. Do your research in advance, read the fine-print (e.g. make sure you're only using music that is royalty-free), and be sure to include appropriate acknowledgements in your credits.</p>
-            </div>
-
-            <div class="rule-item">
-                <h4>Is there anything I can't include in my film?</h4>
-                <p>We're not prudes, and we want to respect your artistic freedom and all that. But there are obviously some lines in terms of objectionable content that we don't want crossed. Hopefully what those are should be clear, but please contact us if you're unsure which side of the line your masterpiece falls on.</p>
-                <p>We won't get a chance to properly review films prior to the screening so there's going to be a bit of trust here. But we reserve the right to cut your film off mid-screening if we feel it's inappropriate.</p>
-                <p>Upon hand-in, we will ask you whether your film contains any content unsuitable for children, eg explicit language, nudity, adult themes. This probably won't stop us from screening your film, but it will help us to programme the screening strategically and warn the audience in advance.</p>
-                <p><strong>48 Hours says this (we feel the same way): When in doubt, cut it out.</strong></p>
-            </div>
-
-            <div class="rule-item">
-                <h4>Am I allowed to prepare anything prior to the 24 filmmaking period?</h4>
-                <p>Great question. Ultimately this is your decision, in terms of how much you want to be restrained by the rules, versus this just being an excuse/motivation to get a film made. Either option is valid, although we would ideally like for at least the majority of your film idea and creation to be made within the 24-hour period, to preserve the spirit of the thing.</p>
-            </div>
-
-            <div class="rule-item">
-                <h4>Can I use pre-existing footage in my film?</h4>
-                <p>Again, the more that's made within the 24-hour period, the better. But if it's your own footage, all good. If it's not yours, just remember that all the usual copyright rules apply. If in doubt, don't use it.</p>
-            </div>
-
-            <div class="rule-item highlight">
-                <h4>If the rules are unclear:</h4>
-                <p>This competition is (even) less serious than our big/legitimate brother at 48 hours, so PLEASE don't get too hung up on the rules. We'd love you to delight us. Last year, somebody finished their film by cutting to live action in the theatre. Iconic.</p>
-                <p>But if you're really unsure, contact us and ask!</p>
-                <p class="contact"><strong>Text Michael: 021 223 6693</strong></p>
-            </div>
-
-            <div class="rule-item">
-                <h4>Are under-18's allowed to participate?</h4>
-                <p>Absolutely! You're allowed in our licensed premises too, you're just not allowed to purchase booze from the bar :-)</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Advice Section -->
-    <section id="advice" class="section advice">
-        <div class="section-header">
-            <h2 class="section-title">Some good advice!</h2>
-            <div class="title-decoration"></div>
-        </div>
-
-        <div class="advice-content">
-            <div class="advice-item tip">
-                <h4>Any tips for how to structure the 24 hours?</h4>
-                <p>Let's work out a thread closer to the time for people who have done the competition to share their tips!</p>
-            </div>
-
-            <div class="advice-item important">
-                <h4>Check your workflow!</h4>
-                <p>Speaking of things you can do before the weekend, please check your workflow. Make a practice 30 second film and make sure everything works the way you expect it to.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Hand In Section -->
-    <section id="handin" class="section handin">
-        <div class="section-header">
-            <h2 class="section-title">Handing in your film!</h2>
-            <div class="title-decoration"></div>
-        </div>
-
-        <div class="handin-content">
-            <div class="handin-item">
-                <h4>What does our film's video file need to include?</h4>
-                <p>At the beginning of the video (i.e. before your film), please include a title card onscreen for 5 seconds, white text on black background. It should say:</p>
-                <div class="title-card-example">
-                    <p>TEAM NAME</p>
-                    <p>"FILM TITLE"</p>
-                </div>
-                <p>Note that the 3-minute maximum length does not include the 5-second title card, but it does include any film credits you may have.</p>
-            </div>
-
-            <div class="handin-item">
-                <h4>What file and video format should we submit in?</h4>
-                <p>We'll do our best to make anything play for the screening, but please make our jobs easier by not handing in weird and obscure video file formats.</p>
-                <p><strong>Our preferred format is the same as the 48Hours competition format:</strong></p>
-                <ul class="format-specs">
-                    <li>Video codec H.264 (mp4)</li>
-                    <li>1920x1080 (Full HD)</li>
-                    <li>Video bit rate average 10Mbps (max 12Mbps)</li>
-                    <li>Audio in stereo (two channels)</li>
-                    <li>Audio bit rate 192kbps</li>
-                    <li>Audio sample rate 48kHz</li>
-                </ul>
-
-                <div class="tech-notes">
-                    <h5>Please feel free to read the following notes too:</h5>
-                    <ul>
-                        <li>Export in whatever frame rate you shot in which is likely to be either 23.98fps, 24fps, 25fps or 29.97fps. No need to convert.</li>
-                        <li>We'd really prefer that you don't export in .wmv or .avi but we'll probably be able to play it if that's what you have to.</li>
-                        <li>1080p is preferred. If you'd like to hand it in UHD then do so and it should be fine (although our projector is 1080p). If you have time to make a 1080p backup then great.</li>
-                        <li>Aim for 10Mbps. (If you do UHD then no more than 25Mbps.)</li>
-                        <li>If you're choosing between "1 pass" and "2 pass" encoding, I'd probably recommend "1 pass" if you're in a hurry. We're going to use the file once for the screening so that extra pass isn't worth getting DQ'd over. You can upload your video in higher quality later.</li>
-                        <li>Your file should be a few hundred megabytes (well, it should be less than 100 megabytes per minute of film). If your file is more than a gigabyte then you've definitely done it wrong. And if it's more than a gigabyte, it will take longer to transfer as well as risk of dropped frames if our computer doesn't keep up. As long as you aim for 10Mbps for the video track bit rate, the file size should work out about right.</li>
-                    </ul>
-                </div>
-
-                <p class="contact-note">Please don't hesitate to text Michael on 021 223 6693 if you have any questions or issues.</p>
-            </div>
-
-            <div class="handin-item">
-                <h4>How should we name the file?</h4>
-                <p>Please name the file as your team's name and 24CHCH26, e.g. <code>OURTEAMNAME24CHCH26.mp4</code></p>
-                <p>E.g. <code>TOOTTOOT24CHCH26.mp4</code></p>
-                <p>(But don't write TOOTTOOT, write your team name)</p>
-            </div>
-
-            <div class="handin-item">
-                <h4>What if I can't find a USB stick?</h4>
-                <p>Buy one. They're really handy. And if you ask nicely, we'll even hand it back to you once we've copied your film off it. If you really can't find one, you can WeTransfer the file to us (<a href="mailto:tech@littleandromeda.co.nz">tech@littleandromeda.co.nz</a>) and you need to still arrive at the Little A finish line by 6pm with a piece of paper that has the words RELEASE FORM written on it. That will satisfy us.</p>
-            </div>
-
-            <div class="handin-item important">
-                <h4>Wait! Before you leave the house, send us a copy online!</h4>
-                <p>To be clear, this doesn't replace physical hand-in at the finish line, but it's a safety option - for example, if your USB stick is corrupted and we can't read the file on it. Also, we'd rather you didn't drive like a maniac to get to Little A by 6pm, so just calmly send us a copy first via WeTransfer, then get to the venue as soon as you can.</p>
-                <div class="wetransfer-steps">
-                    <p>Go to: <a href="https://wetransfer.com" target="_blank">wetransfer.com</a></p>
-                    <p>Follow the instructions</p>
-                    <p>In the Email to field, put: <strong>tech@littleandromeda.co.nz</strong></p>
-                </div>
-            </div>
-
-            <div class="handin-item">
-                <h4>What if I can't physically hand in the film at Little A for some reason?</h4>
-                <p>Look, we really like the whole in-person finish line aspect, but we're not going to be dicks about it. If you've got a really good pre-planned reason (e.g. that you have work or something), talk to us first so we know the plan, and then use WeTransfer as per the details above. But we still expect to see you at Little A shortly after for the screening…</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Sponsors Section -->
-    <section id="sponsors" class="section sponsors">
-        <div class="section-header">
-            <h2 class="section-title">Our 2023 Sponsors!</h2>
-            <div class="title-decoration"></div>
-        </div>
-
-        <div class="sponsors-grid">
-            <a href="https://littleandromeda.co.nz/" target="_blank" class="sponsor-link">
-                <span>Little Andromeda</span>
-            </a>
-            <a href="https://readingcinemas.co.nz/" target="_blank" class="sponsor-link">
-                <span>Reading Cinemas</span>
-            </a>
-            <a href="https://goodtimescomedyclub.co.nz/" target="_blank" class="sponsor-link">
-                <span>Good Times Comedy Club</span>
-            </a>
-            <a href="https://recce.co.nz/" target="_blank" class="sponsor-link">
-                <span>Recce</span>
-            </a>
         </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="footer-content">
-            <div class="footer-logo">24CHCH</div>
-            <div class="footer-links">
-                <a href="https://48hours.co.nz/" target="_blank">48HOURS Film Festival</a>
+        <div class="container">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span class="logo-24">24</span><span class="logo-chch">CHCH</span>
+                    </div>
+                    <p class="footer-tagline">The Christchurch 24 Hour Film Festival</p>
+                </div>
+
+                <div class="footer-nav">
+                    <div class="footer-col">
+                        <h4>Event</h4>
+                        <ul>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="screening.html">Screening</a></li>
+                            <li><a href="rules.html">Rules</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Participate</h4>
+                        <ul>
+                            <li><a href="advice.html">Advice</a></li>
+                            <li><a href="handin.html">Hand In</a></li>
+                            <li><a href="https://docs.google.com/forms/d/e/1FAIpQLScbwJp2_Lpm9lMBUN3vr_xrUQUIbqv9HYaf_0LnMmid-7J54g/viewform" target="_blank">Register</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Connect</h4>
+                        <ul>
+                            <li><a href="https://48hours.co.nz/" target="_blank">48HOURS NZ</a></li>
+                            <li><a href="2023.html">2023 Films</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="footer-credit">
-                <p>Website By <a href="https://tempero.nz/" target="_blank">Tempero Creative</a></p>
-            </div>
-            <div class="footer-cta">
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLScbwJp2_Lpm9lMBUN3vr_xrUQUIbqv9HYaf_0LnMmid-7J54g/viewform" target="_blank" class="cta-button small">
-                    SIGN UP NOW
-                </a>
+
+            <div class="footer-bottom">
+                <div class="footer-contact">
+                    <p>Questions? Text Michael: <strong>021 223 6693</strong></p>
+                </div>
+                <div class="footer-credit">
+                    <span>Website by</span>
+                    <a href="https://sidequestdigital.co.nz/" target="_blank" class="credit-link">
+                        <img src="assets/images/sidequest.png" alt="Sidequest Digital" class="credit-logo">
+                    </a>
+                </div>
             </div>
         </div>
     </footer>
