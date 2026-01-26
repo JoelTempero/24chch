@@ -376,11 +376,11 @@ strong {
     color: var(--color-accent);
 }
 
-/* Countdown */
+/* Countdown - EXTRA LARGE */
 .countdown {
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: 1.5rem;
     margin-bottom: 3rem;
     flex-wrap: wrap;
 }
@@ -391,25 +391,25 @@ strong {
     align-items: center;
     background: rgba(255,255,255,0.1);
     backdrop-filter: blur(10px);
-    padding: 1.25rem 1.5rem;
-    border-radius: var(--radius-lg);
-    min-width: 90px;
+    padding: 2rem 2.5rem;
+    border-radius: var(--radius-xl);
+    min-width: 140px;
     border: 1px solid rgba(255,255,255,0.15);
 }
 
 .countdown-value {
     font-family: var(--font-display);
-    font-size: clamp(2.5rem, 6vw, 3.5rem);
+    font-size: clamp(4rem, 10vw, 7rem);
     color: var(--color-white);
     line-height: 1;
 }
 
 .countdown-label {
-    font-size: 0.75rem;
+    font-size: 1rem;
     text-transform: uppercase;
-    letter-spacing: 0.15em;
+    letter-spacing: 0.2em;
     opacity: 0.7;
-    margin-top: 0.5rem;
+    margin-top: 0.75rem;
 }
 
 /* CTA Button */
@@ -904,6 +904,92 @@ strong {
     border: none;
 }
 
+/* Top Awards Grid - Winner & Runner Up Side by Side */
+.top-awards-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-lg);
+    margin-bottom: var(--space-xl);
+}
+
+@media (max-width: 900px) {
+    .top-awards-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.top-award {
+    background: var(--color-white);
+    padding: var(--space-lg);
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-md);
+    text-align: center;
+}
+
+.top-award.winner-section {
+    border: 3px solid var(--color-accent);
+}
+
+.top-award.runnerup-section {
+    border: 3px solid var(--color-secondary);
+}
+
+.award-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    letter-spacing: 0.1em;
+    padding: 0.5rem 1.5rem;
+    border-radius: var(--radius-md);
+    margin-bottom: 1rem;
+}
+
+.winner-badge {
+    background: linear-gradient(135deg, var(--color-accent), #ffaa00);
+    color: var(--color-dark);
+}
+
+.runnerup-badge {
+    background: linear-gradient(135deg, var(--color-secondary), var(--color-primary));
+    color: var(--color-white);
+}
+
+.badge-star {
+    font-size: 1.75rem;
+}
+
+.top-award .winner-team,
+.top-award .film-title {
+    font-family: var(--font-display);
+    font-size: 2rem;
+    color: var(--color-dark);
+    margin-bottom: 0.5rem;
+}
+
+.top-award .team-name {
+    font-size: 1.1rem;
+    color: var(--color-gray);
+    margin-bottom: 1.5rem;
+}
+
+.winner-media {
+    margin-top: 1rem;
+}
+
+.winner-placeholder {
+    width: 100%;
+    max-width: 400px;
+    border-radius: var(--radius-lg);
+    margin-bottom: 1rem;
+}
+
+.winner-note {
+    font-style: italic;
+    color: var(--color-gray);
+}
+
 /* Awards Section */
 .awards-section {
     margin-bottom: var(--space-xl);
@@ -911,13 +997,13 @@ strong {
 
 .awards-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: var(--space-md);
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-lg);
 }
 
 .award-card {
     background: var(--color-white);
-    padding: var(--space-md);
+    padding: var(--space-lg);
     border-radius: var(--radius-lg);
     box-shadow: var(--shadow-sm);
     transition: all var(--transition-medium);
@@ -931,22 +1017,29 @@ strong {
 .award-label {
     display: inline-block;
     font-family: var(--font-display);
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     color: var(--color-secondary);
     letter-spacing: 0.1em;
-    margin-bottom: 0.75rem;
-    padding: 0.25rem 0.75rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
     background: linear-gradient(135deg, rgba(0,212,255,0.15) 0%, rgba(155,89,182,0.15) 100%);
     border-radius: var(--radius-sm);
 }
 
 .award-card .film-title {
-    font-size: 1.25rem;
-    margin-bottom: 0.25rem;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .award-card .team-name {
-    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    margin-bottom: 1.25rem;
+}
+
+@media (max-width: 900px) {
+    .awards-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 /* All Films Section */
@@ -956,31 +1049,37 @@ strong {
 
 .films-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: var(--space-md);
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-lg);
+}
+
+@media (max-width: 900px) {
+    .films-grid {
+        grid-template-columns: 1fr;
+    }
 }
 
 .film-card {
     background: var(--color-white);
-    padding: var(--space-sm);
+    padding: var(--space-md);
     border-radius: var(--radius-lg);
     box-shadow: var(--shadow-sm);
     transition: all var(--transition-medium);
 }
 
 .film-card:hover {
-    transform: translateY(-3px);
-    box-shadow: var(--shadow-md);
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
 }
 
 .film-card .film-title {
-    font-size: 1.1rem;
-    margin-bottom: 0.25rem;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
 }
 
 .film-card .team-name {
-    font-size: 0.9rem;
-    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
 }
 
 /* Sponsors Section */
@@ -1305,8 +1404,14 @@ strong {
 
 .tips-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: var(--space-md);
+}
+
+@media (max-width: 768px) {
+    .tips-list {
+        grid-template-columns: 1fr;
+    }
 }
 
 .tip {
@@ -1620,8 +1725,15 @@ strong {
     transition: opacity var(--transition-fast);
 }
 
-.credit-link:hover .credit-logo {
-    opacity: 1;
+.credit-logo-large {
+    height: 84px;
+    width: auto;
+    transition: opacity var(--transition-fast);
+}
+
+.credit-link:hover .credit-logo,
+.credit-link:hover .credit-logo-large {
+    opacity: 0.8;
 }
 
 /* ==================== RESPONSIVE ==================== */
@@ -1692,11 +1804,6 @@ strong {
     }
 
     .faq-grid {
-        grid-template-columns: 1fr;
-    }
-
-    .awards-grid,
-    .films-grid {
         grid-template-columns: 1fr;
     }
 
