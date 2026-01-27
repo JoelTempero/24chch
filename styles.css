@@ -871,11 +871,6 @@ strong {
     margin-right: auto;
 }
 
-/* When runner up is inside top-awards-grid, remove max-width constraint */
-.top-award.runnerup-section {
-    max-width: none;
-    margin-bottom: 0;
-}
 
 .film-title {
     font-family: var(--font-heading);
@@ -945,6 +940,14 @@ strong {
 
 .top-award.runnerup-section {
     border: 3px solid var(--color-secondary);
+    max-width: none;
+    margin: 0;
+}
+
+.top-award .team-name {
+    font-size: 1.1rem;
+    color: var(--color-gray);
+    margin-bottom: 1rem;
 }
 
 .award-badge {
@@ -981,11 +984,6 @@ strong {
     margin-bottom: 0.5rem;
 }
 
-.top-award .team-name {
-    font-size: 1.1rem;
-    color: var(--color-gray);
-    margin-bottom: 1.5rem;
-}
 
 .winner-media {
     margin-top: 1rem;
