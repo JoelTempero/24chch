@@ -1,10 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
-  <defs>
-    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#ff0080;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#00d4ff;stop-opacity:1" />
-    </linearGradient>
-  </defs>
-  <rect width="100" height="100" fill="#0a0a0a"/>
-  <text x="50" y="68" font-family="Arial Black, sans-serif" font-size="32" font-weight="bold" fill="url(#grad)" text-anchor="middle">24</text>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <rect x="0" y="0" width="100" height="100" style="fill:rgb(10,10,10);"/>
+    <g transform="matrix(1,0,0,1,50,68)">
+        <text x="-17.797px" y="0px" style="font-family:'Arial-BoldMT', 'Arial', sans-serif;font-weight:700;font-size:32px;fill:url(#_Linear1);">24</text>
+    </g>
+    <g transform="matrix(3.716883,0,0,3.716883,-13.317045,-14.045461)">
+        <use xlink:href="#_Image2" x="0" y="0" width="34px" height="35px"/>
+    </g>
+    <defs>
+        <linearGradient id="_Linear1" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(35.59375,22.90625,-22.90625,35.59375,-17.796875,-22.90625)"><stop offset="0" style="stop-color:rgb(255,0,128);stop-opacity:1"/><stop offset="1" style="stop-color:rgb(0,212,255);stop-opacity:1"/></linearGradient>
+        <image id="_Image2" width="34px" height="35px" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAjCAYAAADxG9hnAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANsSURBVFhH7ZZfaBRHHMc/c9kjsSlpG4wUT2oxShqqtP6pIm0UoUUEtW0sFX1oXyoKVfChFlQi2FQUhDxI6VMkIIooRVsVwVBr1UAgaoLGcg021yjRqE0w0Zw5vb379WHusrdzu2sKxvQhH1hufvP7zvK938zsjHr4aEj4HxAyO8aKcSMm40ZMlO+uEYHoTeTAGWjvhKQNYQtmlaO+WAqVU0Epc5SbJ0lkRz203dBxcRFqzwaoeMMlS6XSARU5cRHZ8iO0dmgToH9bO3T/iYvmiHxudEP0ltnrwrZtamv3+hiJ9SCHfnUMmCRtnY/1mBkHETh7GRJPzIyLlpZWjh752cfI5Sj0D+p22EKtX4lq2Ir6dBGEMtPRP6h1ftztQy4F5AER4dTJM6TTflPTecdpz3sLPq6CSBms+RCmlHnrTJr/gPv9Zq+LoaEhurt1VfONiCBpZ/2qGRGwCnRQGIaSl4dz6aQN6fRwPEw8gfzWZvYGkm8k8RT6Bpw4lC/JEgpb3vnrMYjdNnsD8XhLAIMJ+Cen3BNLcrMaEfi9DeyUXk8L3jYVnuQbmVCIqtuIaqxDNdbB2o+cXOy2Uy2rAGZXOLksd/uQ9k7dnjwR9Z6HxoN8I37EE8jhs/qfAkyL6I+aSc4iVbNnQOkrpsKTkRkRgV+a4M8uHVsFqOoqKC5y63IXaVEhLJnrzgcwMiPnryKHGiGzm9Tid6HqHVPlXqTTI1A+2VT48mwj0S7kh5+cr2ykDL5cps+dXOwU0nhpeOrUB7NgQqFbE0CwkWgXUlMPDx/ruOQl1Ldr4PVSUwm37sHVzOE26VVYOLLdksXfSDyB7D/tNlH7FVS+aSo159scbcVUKHvNVATibUQEjl+Aa3/pOGyhNn7mbyKeQK5kqlEQQi2o1GdR7wAMZsyRee9AXD/ivn1430d6evVRn92GK9+Hr6v97x+9A8jmfXD/gZnxZuY01K51PJYUG9Z/Q0vLFZ+KtP/tHFilJVC92N/Ec8LbSMdNpz1lkjYzynhPze6DyLlW3V44E7VplanQFBc9e4s2tSPfNei2cVUUEbZv+55jx055VMROIYmnTtx8HVm70/Ph+IXckf8ZpRTLVywlFAp5GEna8ChnpY8y8+fP4fPVn3gYecFYlkVNzRafNTIGjHlFsowbMRk3YvIvrglJqdzmiMIAAAAASUVORK5CYII="/>
+    </defs>
 </svg>
