@@ -445,6 +445,30 @@ strong {
     transform: translateX(5px);
 }
 
+.cta-button.cta-secondary {
+    background: transparent;
+    border: 2px solid var(--color-accent);
+    color: var(--color-white);
+    font-size: 1.25rem;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+}
+
+.cta-button.cta-secondary:hover {
+    background: var(--color-accent);
+    color: var(--color-white);
+}
+
+.nav-cta-tickets {
+    background: var(--color-accent) !important;
+    color: var(--color-dark) !important;
+    box-shadow: 0 0 20px rgba(255,215,0,0.3) !important;
+}
+
+.nav-cta-tickets:hover {
+    box-shadow: 0 0 40px rgba(255,215,0,0.5) !important;
+}
+
 .hero-subtitle {
     font-size: 1.1rem;
     opacity: 0.8;
@@ -1172,6 +1196,11 @@ strong {
     font-family: var(--font-heading);
     font-size: 1.25rem;
     color: var(--color-dark);
+}
+
+.ticket-cta {
+    text-align: center;
+    margin-top: var(--space-lg);
 }
 
 /* Schedule / Timeline */
