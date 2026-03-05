@@ -1108,6 +1108,60 @@ strong {
     margin-bottom: 1rem;
 }
 
+/* Judges Section */
+.judges-section {
+    text-align: center;
+    padding: var(--space-xl) 0;
+    margin-bottom: var(--space-lg);
+}
+
+.judges-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--space-md);
+    margin-top: var(--space-md);
+}
+
+.judge-card {
+    background: var(--color-white);
+    border-radius: var(--radius-lg);
+    padding: var(--space-md);
+    text-align: center;
+    transition: transform var(--transition-medium);
+}
+
+.judge-card:hover {
+    transform: translateY(-4px);
+}
+
+.judge-photo {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: var(--space-sm);
+    border: 3px solid var(--color-primary);
+}
+
+.judge-card h3 {
+    font-family: var(--font-heading);
+    font-size: 1.3rem;
+    color: var(--color-dark);
+    margin-bottom: var(--space-xs);
+}
+
+.judge-card p {
+    font-size: 0.95rem;
+    color: var(--color-gray);
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .judges-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 /* Sponsors Section */
 .sponsors-section {
     text-align: center;
