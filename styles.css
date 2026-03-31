@@ -1147,6 +1147,30 @@ strong {
     margin-bottom: 1rem;
 }
 
+/* Video Placeholder (coming soon) */
+.video-placeholder {
+    position: relative;
+    padding-bottom: 56.25%;
+    background: var(--color-dark);
+    border-radius: var(--radius-md);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-placeholder .placeholder-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 0.5);
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
 /* Judges Section */
 .judges-section {
     text-align: center;
