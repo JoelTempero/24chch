@@ -32,21 +32,22 @@
 - Judges section and prize sponsors added to About page
 - Sign-up form (Google Forms) and ticket link (Little Andromeda) integrated
 - OG social preview image added to all pages (assets/images/og-image.png)
+- 2026 films page created with results, homepage updated for post-event
+- Nav/footer updated across all pages for post-event state
 
 ## Next Steps
 - [ ] Replace placeholder card for InvercargillFoxFilms "BEST USE OF (TEA) LEAVES" once video is submitted
-- [ ] Add remaining films as teams submit YouTube links (7 teams still pending)
+- [ ] Add remaining films as teams submit YouTube links (5 teams still pending: No Fat Chicks, D&M Productions, Mad Scientists, Team Evil Team Productions, The Goon Squad, Breadsticks)
 - [ ] Update site for 2027 event when dates are confirmed
 
 ## Session Log
 ### 2026-03-31
-- Created 2026.html films page with winner, runner up, 6 special awards, 9 other films
+- Created 2026.html films page with winner, runner up, 6 special awards, 11 other films
 - One placeholder card for InvercargillFoxFilms (BEST USE OF (TEA) LEAVES) — awaiting video
 - Updated homepage hero: removed countdown/sign-up, replaced with "SEE YOU NEXT YEAR!" + 48Hours CTA
-- Added "WATCH THE 2026 FILMS" secondary CTA to homepage
 - Updated nav on all 8 pages: added 2026 Films link, removed Sign Up/Tickets CTAs
-- Updated footer on all pages: "Connect" column → "Films" column with 2026 + 2023 links
-- Added .video-placeholder CSS for "coming soon" cards
+- Updated footer on all pages: "Connect" → "Films" column with 2026 + 2023 links
+- Added 2 late-submission films (Felix's Normal Team, Lil Bean Supreme)
 
 ### 2026-03-18
 - Created OG preview image (1200x630) matching hero branding
