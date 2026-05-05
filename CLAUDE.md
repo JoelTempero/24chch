@@ -6,6 +6,16 @@
 - **Status**: Post-event updates (event was March 27-28, 2026)
 - **URL**: https://24chch.nz
 
+## Playbooks In Use
+Read these from the Brain folder at session start. Do not copy into this project.
+Brain location: `D:/Sidequest Digital/Dev Projects/Brain/`
+
+- `JoelTempero.md` — working profile (always)
+- `TokenDiscipline.md` — token cost hygiene (always)
+- `DesignSystem.md` — design contract workflow
+- `SEO.md` — SEO workflow
+- `Deployment.md` — deployment workflow
+
 ## Tech Stack
 - **Frontend**: Vanilla HTML, CSS, JavaScript
 - **Backend**: None (static site)
@@ -34,13 +44,17 @@
 - OG social preview image added to all pages (assets/images/og-image.png)
 - 2026 films page created with results, homepage updated for post-event
 - Nav/footer updated across all pages for post-event state
+- All special award videos now have embeds (PLANETSOCKSFILMS added for Tea Leaves)
 
 ## Next Steps
-- [ ] Replace placeholder card for InvercargillFoxFilms "BEST USE OF (TEA) LEAVES" once video is submitted
 - [ ] Add remaining films as teams submit YouTube links (5 teams still pending: No Fat Chicks, D&M Productions, Mad Scientists, Team Evil Team Productions, The Goon Squad, Breadsticks)
 - [ ] Update site for 2027 event when dates are confirmed
 
 ## Session Log
+### 2026-05-05
+- Replaced placeholder for "BEST USE OF (TEA) LEAVES" — team is PLANETSOCKSFILMS (not InvercargillFoxFilms)
+- Added YouTube embed (wXE2PqD5EYY), deployed to live
+
 ### 2026-03-31
 - Created 2026.html films page with winner, runner up, 6 special awards, 11 other films
 - One placeholder card for InvercargillFoxFilms (BEST USE OF (TEA) LEAVES) — awaiting video
