@@ -47,10 +47,14 @@ Brain location: `D:/Sidequest Digital/Dev Projects/Brain/`
 - All special award videos now have embeds (PLANETSOCKSFILMS added for Tea Leaves)
 
 ## Next Steps
-- [ ] Add remaining films as teams submit YouTube links (5 teams still pending: No Fat Chicks, D&M Productions, Mad Scientists, Team Evil Team Productions, The Goon Squad, Breadsticks)
+- [ ] Add remaining films as teams submit YouTube links (5 teams still pending: D&M Productions, Mad Scientists, Team Evil Team Productions, The Goon Squad, Breadsticks)
 - [ ] Update site for 2027 event when dates are confirmed
 
 ## Session Log
+### 2026-06-01
+- Added "Sex Cops: The Elite Branch of the Super Police" by NO FAT CHICKS (FqvEaODslhs) to 2026 films grid
+- 5 teams still pending video submissions
+
 ### 2026-05-05
 - Replaced placeholder for "BEST USE OF (TEA) LEAVES" — team is PLANETSOCKSFILMS (not InvercargillFoxFilms)
 - Added YouTube embed (wXE2PqD5EYY), deployed to live
